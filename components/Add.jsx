@@ -59,7 +59,7 @@ const Add = ({ setClose }) => {
         <span onClick={() => setClose(true)} className={styles.close}>
           X
         </span>
-        <h1>Agregar una nueva pizza</h1>
+        <h1>Agregar nueva pizza en la base de datos</h1>
         <div className={styles.item}>
           <label className={styles.label}>Escoje una imagen</label>
           <input type="file" onChange={(e) => setFile(e.target.files[0])} />
